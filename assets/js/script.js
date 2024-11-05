@@ -35,7 +35,7 @@ let numeroFornito = 9;
 let Resto = numeroFornito % 5;
 if (Resto === 0) {
     console.log('divisibile per 5');
-} */
+}  */
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -65,13 +65,13 @@ else {console.log('non si può ottenere 8');
 /* SCRIVI QUI LA TUA RISPOSTA 
 const shipping = 10;
 let totalShoppingCart = 110;
-totalShoppingCart = totalShoppingCart - shipping;
+totalShoppingCart = totalShoppingCart + shipping;
 
 if (totalShoppingCart > 50) {
-console.log('la spedizione è gratuita! Il totale è: ' + totalShoppingCart);
+console.log('la spedizione è gratuita! Il totale è: ' + (totalShoppingCart - shipping);
 }
 else {
-    console.log('la spedizione non è gratuita. Il totale è: ' + (totalShoppingCart + shipping));
+    console.log('la spedizione non è gratuita. Il totale è: ' + totalShoppingCart);
 } */
 
 /* ESERCIZIO 6
