@@ -21,19 +21,37 @@ console.log(numero2 + ' è maggiore di ' + numero1);
 let numeroIntero = 3;
 if (numeroIntero != 5) {
     console.log('not equal')
-}  */
+} */
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+let numeroFornito = 9;
+let Resto = numeroFornito % 5;
+if (Resto === 0) {
+    console.log('divisibile per 5');
+} */
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA
+let numeroIntero1= 2;
+let numeroIntero2 = 6;
+if (numeroIntero1 === 8 || numeroIntero2 === 8) {
+    console.log('uno dei numeri è 8');
+}
+else if (numeroIntero1 + numeroIntero2 === 8) {
+    console.log('la somma è 8');
+}
+else if (numeroIntero2 - numeroIntero1 === 8 || numeroIntero1 - numeroIntero2 === 8) {
+    console.log('la sottrazione è 8');
+}
+else {console.log('non si può ottenere 8');
+} */
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
