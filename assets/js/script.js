@@ -140,6 +140,15 @@ else {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let number = 18;
+let resto = number % 2;
+
+if (resto === 0 ) {
+    console.log('il numero è pari');
+}
+else {console.log('il numero è dispari');
+    
+}
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
