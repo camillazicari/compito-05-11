@@ -126,7 +126,14 @@ let variabile3 = 1400;
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+let valoreX = '2'
+if (typeof(valoreX) != 'number' ) {
+    console.log('non è un numero');
+} 
+else {
+    console.log('è un numero');
+} */
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
