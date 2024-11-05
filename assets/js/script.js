@@ -60,8 +60,8 @@ else {console.log('non si può ottenere 8');
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let shipping = 10;
-let totalShoppingCart = 60;
+const shipping = 10;
+let totalShoppingCart = 110;
 totalShoppingCart = totalShoppingCart - shipping;
 
 if (totalShoppingCart > 50) {
@@ -76,9 +76,15 @@ else {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-let sconto = 0.2;
-if
+/* SCRIVI QUI LA TUA RISPOSTA 
+let prezzoScontato = totalShoppingCart - (totalShoppingCart * 0.2);
+
+if (prezzoScontato > 50) {
+    console.log('la spedizione è gratuita! Il totale è: ' + prezzoScontato);
+    }
+    else {
+        console.log('la spedizione non è gratuita. Il totale è: ' + (prezzoScontato + shipping));
+    } */
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
