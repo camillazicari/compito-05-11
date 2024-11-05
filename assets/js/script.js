@@ -204,7 +204,21 @@ console.log(me)
     Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
   */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+let numeri = [];
+
+numeri[0] = 1;
+numeri[1] = 2;
+numeri[2] = 3;
+numeri[3] = 4;
+numeri[4] = 5;
+numeri[5] = 6;
+numeri[6] = 7;
+numeri[7] = 8;
+numeri[8] = 9;
+numeri[9] = 10;
+
+console.log(numeri); */
 
 /* ESERCIZIO 15
     Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
