@@ -59,7 +59,15 @@ else {console.log('non si può ottenere 8');
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+let shipping = 10;
+let totalShoppingCart = 30;
+if (totalShoppingCart > 50) {
+console.log('il totale è: ' + totalShoppingCart);
+}
+else {
+    console.log('il totale è: ' + (totalShoppingCart + shipping));
+} */
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
