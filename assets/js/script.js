@@ -59,7 +59,7 @@ else {console.log('non si può ottenere 8');
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
 const shipping = 10;
 let totalShoppingCart = 110;
 totalShoppingCart = totalShoppingCart - shipping;
@@ -69,7 +69,7 @@ console.log('la spedizione è gratuita! Il totale è: ' + totalShoppingCart);
 }
 else {
     console.log('la spedizione non è gratuita. Il totale è: ' + (totalShoppingCart + shipping));
-} 
+} */
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
