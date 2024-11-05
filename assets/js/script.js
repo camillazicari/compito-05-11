@@ -9,8 +9,11 @@ let numero2 = 14;
 if (numero1>numero2) {
     console.log(numero1 + ' è maggiore di ' + numero2);
 }
-else {
+else if (numero2>numero1) {
 console.log(numero2 + ' è maggiore di ' + numero1);
+} 
+else { 
+console.log(numero1 ' è uguale a ' numero2);
 } */
 
 /* ESERCIZIO 2
@@ -93,9 +96,10 @@ if (prezzoScontato > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA
-let variabile1 = 200;
-let variabile2 = 20;
-let variabile3 = 1400;
+
+let variabile1 = 20;
+let variabile2 = 40;
+let variabile3 = 2;
  if (variabile1 > variabile2 && variabile1 > variabile3) {
     if (variabile2 > variabile3) {
         console.log(variabile1 + '>' + variabile2 +'>' + variabile3);
