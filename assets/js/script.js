@@ -197,6 +197,8 @@ console.log(me);
   */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+delete me.skills[2]
+console.log(me)
 
 /* ESERCIZIO 14
     Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
