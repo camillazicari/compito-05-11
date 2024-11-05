@@ -92,7 +92,35 @@ if (prezzoScontato > 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA
+let variabile1 = 200;
+let variabile2 = 20;
+let variabile3 = 1400;
+ if (variabile1 > variabile2 && variabile1 > variabile3) {
+    if (variabile2 > variabile3) {
+        console.log(variabile1 + '>' + variabile2 +'>' + variabile3);
+    }
+    else {
+        console.log(variabile1 + '>' + variabile3 + '>' + variabile2);
+    }
+ }
+ else if (variabile2 > variabile1 && variabile2 > variabile3) {
+    if (variabile1 > variabile3) {
+        console.log(variabile2 + '>' + variabile1 + '>' + variabile3);
+    }
+    else {
+        console.log(variabile2 + '>' + variabile3 + '>' + variabile1);
+    }
+ }
+ else if (variabile3 > variabile1 && variabile3 > variabile2) {
+    if (variabile1 > variabile2) {
+        console.log(variabile3 + '>' + variabile1 + '>' + variabile2);
+    }
+    else {
+        console.log(variabile3 + '>' + variabile2 + '>' + variabile1);
+    }
+ } */
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
