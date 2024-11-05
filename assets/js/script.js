@@ -68,7 +68,7 @@ let totalShoppingCart = 110;
 totalShoppingCart = totalShoppingCart + shipping;
 
 if (totalShoppingCart > 50) {
-console.log('la spedizione è gratuita! Il totale è: ' + (totalShoppingCart - shipping);
+console.log('la spedizione è gratuita! Il totale è: ' + (totalShoppingCart - shipping));
 }
 else {
     console.log('la spedizione non è gratuita. Il totale è: ' + totalShoppingCart);
